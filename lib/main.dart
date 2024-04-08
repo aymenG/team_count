@@ -26,10 +26,34 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(fontSize: 150),
               ),
               ElevatedButton(
-                  style:
-                      ElevatedButton.styleFrom(backgroundColor: Colors.orange),
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      minimumSize: const Size(150, 50)),
                   onPressed: () => {},
-                  child: const Text('add 1 point')),
+                  child: const Text(
+                    'add 1 point',
+                    style: TextStyle(color: Colors.black, fontSize: 18),
+                  )),
+              const SizedBox(height: 15),
+              ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      minimumSize: const Size(150, 50)),
+                  onPressed: () => {},
+                  child: const Text(
+                    'add 2 point',
+                    style: TextStyle(color: Colors.black, fontSize: 18),
+                  )),
+              const SizedBox(height: 15),
+              ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      minimumSize: const Size(150, 50)),
+                  onPressed: () => {},
+                  child: const Text(
+                    'add 3 point',
+                    style: TextStyle(color: Colors.black, fontSize: 18),
+                  )),
             ],
           )),
     );
